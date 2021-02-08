@@ -7,7 +7,7 @@
 </div></div>
 <div class=row><div class=col>
 <div class="alert alert-danger" role="alert">
-Errors occured! 3 check(s) have failed.
+Errors occured! 4 check(s) have failed.
 </div>
 <table class="table">
 <thead><tr>
@@ -21,7 +21,15 @@ DNS - pi.sva.run
 000 / 
 200
 </td><td>
-curl: (92) HTTP/2 stream 0 was not closed cleanly: Unknown error code (err 1)
+curl: (6) Could not resolve host: pi.sva.run
+</td></tr>
+<tr class='table-danger'><td>
+Github Mirror
+</td><td>
+000 / 
+200
+</td><td>
+curl: (6) Could not resolve host: git.svarun.dev
 </td></tr>
 <tr class='table-danger'><td>
 Portainer - Docker
@@ -62,15 +70,9 @@ DNS - Pi-Hole
  ms)</font>
 </a> &nbsp;
 <a href="#" class="btn btn-success disabled" tabindex="-1" role="button" aria-disabled="true" style="margin-top: 10px; padding: 10px;">
-Github Mirror
-<font color=LightGray> (
-1
- ms)</font>
-</a> &nbsp;
-<a href="#" class="btn btn-success disabled" tabindex="-1" role="button" aria-disabled="true" style="margin-top: 10px; padding: 10px;">
 Home Assistant
 <font color=LightGray> (
-0
+3
  ms)</font>
 </a> &nbsp;
 <a href="#" class="btn btn-success disabled" tabindex="-1" role="button" aria-disabled="true" style="margin-top: 10px; padding: 10px;">
@@ -82,15 +84,15 @@ Local Proxy
 <a href="#" class="btn btn-success disabled" tabindex="-1" role="button" aria-disabled="true" style="margin-top: 10px; padding: 10px;">
 Packagist Mirror
 <font color=LightGray> (
-0
+1
  ms)</font>
 </a> &nbsp;
 </div></div>
 <br>
 <div class=row><div class=col>
 <p class=small>Last check: 
-Mon Feb  8 08:00:06 IST 2021
-<br>Total duration: 6 ms
+Mon Feb  8 08:05:24 IST 2021
+<br>Total duration: 24 ms
 <br>Monitoring script by <a href='https://raymii.org/s/software/Bash_HTTP_Monitoring_Dashboard.html'>Remy van Elst</a>. License: GNU AGPLv3. 
 <a href='https://github.com/raymiiorg/bash-http-monitoring'>Source code</a>
 </p>

@@ -7,7 +7,7 @@
 </div></div>
 <div class=row><div class=col>
 <div class="alert alert-danger" role="alert">
-Errors occured! 2 check(s) have failed.
+Errors occured! 7 check(s) have failed.
 </div>
 <table class="table">
 <thead><tr>
@@ -16,12 +16,52 @@ Errors occured! 2 check(s) have failed.
 <th>Error</th>
 </tr></thead><tbody>
 <tr class='table-danger'><td>
-Portainer - Docker
+DNS - pi.sva.run 
 </td><td>
-403 / 
+000 / 
 200
 </td><td>
-Status code does not match expected code
+curl: (6) Could not resolve host: pi.sva.run
+</td></tr>
+<tr class='table-danger'><td>
+Github Mirror
+</td><td>
+000 / 
+200
+</td><td>
+curl: (6) Could not resolve host: git.svarun.dev
+</td></tr>
+<tr class='table-danger'><td>
+Home Assistant
+</td><td>
+000 / 
+200
+</td><td>
+curl: (6) Could not resolve host: ha.sva.run
+</td></tr>
+<tr class='table-danger'><td>
+Local Proxy
+</td><td>
+000 / 
+200
+</td><td>
+curl: (6) Could not resolve host: proxy.sva.run
+</td></tr>
+<tr class='table-danger'><td>
+Packagist Mirror
+</td><td>
+000 / 
+200
+</td><td>
+curl: (6) Could not resolve host: packagist.in
+</td></tr>
+<tr class='table-danger'><td>
+Portainer - Docker
+</td><td>
+000 / 
+200
+</td><td>
+curl: (6) Could not resolve host: docker.sva.run
 </td></tr>
 <tr class='table-danger'><td>
 Proxmox-1
@@ -29,7 +69,7 @@ Proxmox-1
 000 / 
 200
 </td><td>
-curl: (92) HTTP/2 stream 0 was not closed cleanly: Unknown error code (err 1)
+curl: (6) Could not resolve host: proxmox1.sva.run
 </td></tr>
 <tr><td colspan=3 class='small'>All failed checks were attempted again after 5 seconds and failed again.</td></tr>
 </tbody></table>
@@ -53,42 +93,12 @@ DNS - Pi-Hole
 0
  ms)</font>
 </a> &nbsp;
-<a href="#" class="btn btn-success disabled" tabindex="-1" role="button" aria-disabled="true" style="margin-top: 10px; padding: 10px;">
-DNS - pi.sva.run 
-<font color=LightGray> (
-0
- ms)</font>
-</a> &nbsp;
-<a href="#" class="btn btn-success disabled" tabindex="-1" role="button" aria-disabled="true" style="margin-top: 10px; padding: 10px;">
-Github Mirror
-<font color=LightGray> (
-0
- ms)</font>
-</a> &nbsp;
-<a href="#" class="btn btn-success disabled" tabindex="-1" role="button" aria-disabled="true" style="margin-top: 10px; padding: 10px;">
-Home Assistant
-<font color=LightGray> (
-0
- ms)</font>
-</a> &nbsp;
-<a href="#" class="btn btn-success disabled" tabindex="-1" role="button" aria-disabled="true" style="margin-top: 10px; padding: 10px;">
-Local Proxy
-<font color=LightGray> (
-0
- ms)</font>
-</a> &nbsp;
-<a href="#" class="btn btn-success disabled" tabindex="-1" role="button" aria-disabled="true" style="margin-top: 10px; padding: 10px;">
-Packagist Mirror
-<font color=LightGray> (
-0
- ms)</font>
-</a> &nbsp;
 </div></div>
 <br>
 <div class=row><div class=col>
 <p class=small>Last check: 
-Wed Feb 24 03:50:05 IST 2021
-<br>Total duration: 5 ms
+Wed Feb 24 03:55:45 IST 2021
+<br>Total duration: 45 ms
 <br>Monitoring script by <a href='https://raymii.org/s/software/Bash_HTTP_Monitoring_Dashboard.html'>Remy van Elst</a>. License: GNU AGPLv3. 
 <a href='https://github.com/raymiiorg/bash-http-monitoring'>Source code</a>
 </p>

@@ -7,7 +7,7 @@
 </div></div>
 <div class=row><div class=col>
 <div class="alert alert-danger" role="alert">
-Errors occured! 3 check(s) have failed.
+Errors occured! 4 check(s) have failed.
 </div>
 <table class="table">
 <thead><tr>
@@ -15,6 +15,14 @@ Errors occured! 3 check(s) have failed.
 <th>HTTP Status/Expected</th>
 <th>Error</th>
 </tr></thead><tbody>
+<tr class='table-danger'><td>
+DNS - Pi-Hole
+</td><td>
+000 / 
+200
+</td><td>
+curl: (28) Operation timed out after 10001 milliseconds with 0 bytes received
+</td></tr>
 <tr class='table-danger'><td>
 Local Proxy
 </td><td>
@@ -56,12 +64,6 @@ CAM-2
  ms)</font>
 </a> &nbsp;
 <a href="#" class="btn btn-success disabled" tabindex="-1" role="button" aria-disabled="true" style="margin-top: 10px; padding: 10px;">
-DNS - Pi-Hole
-<font color=LightGray> (
-0
- ms)</font>
-</a> &nbsp;
-<a href="#" class="btn btn-success disabled" tabindex="-1" role="button" aria-disabled="true" style="margin-top: 10px; padding: 10px;">
 DNS - pi.sva.run 
 <font color=LightGray> (
 0
@@ -89,8 +91,8 @@ Packagist Mirror
 <br>
 <div class=row><div class=col>
 <p class=small>Last check: 
-Thu Feb 25 09:40:05 IST 2021
-<br>Total duration: 5 ms
+Thu Feb 25 09:45:25 IST 2021
+<br>Total duration: 25 ms
 <br>Monitoring script by <a href='https://raymii.org/s/software/Bash_HTTP_Monitoring_Dashboard.html'>Remy van Elst</a>. License: GNU AGPLv3. 
 <a href='https://github.com/raymiiorg/bash-http-monitoring'>Source code</a>
 </p>

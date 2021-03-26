@@ -7,7 +7,7 @@
 </div></div>
 <div class=row><div class=col>
 <div class="alert alert-danger" role="alert">
-Errors occured! 4 check(s) have failed.
+Errors occured! 3 check(s) have failed.
 </div>
 <table class="table">
 <thead><tr>
@@ -21,15 +21,7 @@ CAM-1
 000 / 
 302
 </td><td>
-curl: (7) Failed to connect to 10.0.4.11 port 80: Host is unreachable
-</td></tr>
-<tr class='table-danger'><td>
-CAM-2
-</td><td>
-000 / 
-302
-</td><td>
-curl: (7) Failed to connect to 10.0.4.13 port 80: Host is unreachable
+curl: (28) Connection timed out after 10000 milliseconds
 </td></tr>
 <tr class='table-danger'><td>
 Portainer - Docker
@@ -52,6 +44,12 @@ curl: (92) HTTP/2 stream 0 was not closed cleanly: Unknown error code (err 1)
 </div></div>
 <div class=row><div class=col>
 <a href="#" class="btn btn-success disabled" tabindex="-1" role="button" aria-disabled="true" style="margin-top: 10px; padding: 10px;">
+CAM-2
+<font color=LightGray> (
+0
+ ms)</font>
+</a> &nbsp;
+<a href="#" class="btn btn-success disabled" tabindex="-1" role="button" aria-disabled="true" style="margin-top: 10px; padding: 10px;">
 DNS - Pi-Hole
 <font color=LightGray> (
 0
@@ -60,7 +58,7 @@ DNS - Pi-Hole
 <a href="#" class="btn btn-success disabled" tabindex="-1" role="button" aria-disabled="true" style="margin-top: 10px; padding: 10px;">
 DNS - pi.sva.run 
 <font color=LightGray> (
-1
+4
  ms)</font>
 </a> &nbsp;
 <a href="#" class="btn btn-success disabled" tabindex="-1" role="button" aria-disabled="true" style="margin-top: 10px; padding: 10px;">
@@ -91,8 +89,8 @@ Packagist Mirror
 <br>
 <div class=row><div class=col>
 <p class=small>Last check: 
-Fri Mar 26 23:55:22 IST 2021
-<br>Total duration: 22 ms
+Sat Mar 27 00:00:25 IST 2021
+<br>Total duration: 25 ms
 <br>Monitoring script by <a href='https://raymii.org/s/software/Bash_HTTP_Monitoring_Dashboard.html'>Remy van Elst</a>. License: GNU AGPLv3. 
 <a href='https://github.com/raymiiorg/bash-http-monitoring'>Source code</a>
 </p>
